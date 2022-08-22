@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.alto-100{
+    height: 100vh;
+}
+
+.alto-contenedor{
+    height: 500px;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+}
+
+.btn-contador{
+    font-size: 1.3em;
+}
+
+.car{
+    width: 90%;
+}
+
+ion-icon{
+    font-size: 1.3em;
+    color: #fff;
+}
+
+.naranja{
+    color: hsl(26, 100%, 55%);
+}
+
+.btn-naranja{
+    background: hsl(26, 100%, 55%);
+}
+
+.btn-naranja:hover{
+    background: hsl(26, 100%, 55%);
+}
+
+.btn-azul{
+    background: hsl(223, 64%, 98%);
+}
+
+
+
+.icon{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon{
+    filter: invert(1);
+    width: 20px;
+    background-position: center;
+}
+
+.carousel-control-next-icon{
+    filter: invert(1);
+    width: 20px;
+    background-position: center;
+}
+
+.offcanvas{
+    width: 279px !important;
+}
+
+
+
+
+@media (max-width: 991px) {
+     .container {
+        --bs-gutter-x: 0;
+        
+}
+
+
+
+.card{
+    width: 100% !important;
+}
+.row{
+    --bs-gutter-x: 0;
+}
+
+.car{
+    width: 100%;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+    .carrusel{
+        margin-top: 80px;
+    }
+    .card{
+        width: 100% !important;
+    }
+
+    .car{
+        width: 100%;
+    }
+
+    .imagenes{
+        height: 320px;
+       
+    }
+}
